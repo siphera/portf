@@ -114,3 +114,7 @@ body {
     -moz-transform: translate(-15em,0);
     -webkit-transform: translate(-15em,0);
 }
+
+.slogan {
+    animation-delay: 2s;
+}
