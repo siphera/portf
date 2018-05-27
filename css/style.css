@@ -66,7 +66,7 @@ body {
 .intro-message {
     position: relative;
 /*    padding-top: 20%;*/
-    padding-bottom: 20%;
+/*    padding-bottom: 20%;*/
 }
 /*Big header*/
 .intro-message > h1 {
@@ -117,4 +117,11 @@ body {
 
 .slogan {
     animation-delay: 2s;
+}
+
+/*-------------my skills---------------*/
+
+.skill-heading {
+    margin-left: 10px;
+    margin-right: 10px;
 }
