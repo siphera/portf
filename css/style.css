@@ -1,6 +1,5 @@
 /*---------------------top nav--------------------- */
 body {
-/*  margin: 0;*/
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -53,4 +52,65 @@ body {
     display: block;
     text-align: left;
   }
+}
+
+.cover { 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: url("https://image.ibb.co/e8hfO8/notebook_1280538_1920.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 855px;
+}
+
+.intro-message {
+    position: relative;
+/*    padding-top: 20%;*/
+    padding-bottom: 20%;
+}
+/*Big header*/
+.intro-message > h1 {
+    margin-top: -50px;
+    text-shadow: 4px 2px 4px #000;
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.intro-message > h3 {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    color: skyblue;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message img {
+    position: relative;
+}
+
+.animate {
+    transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -webkit-transition: 2s ease-in-out;
+}
+
+#photo1.animate {
+    transform: translate(15em,0);
+    -moz-transform: translate(15em,0);
+    -webkit-transform: translate(15em,0);
+}
+
+/* bring photo1 to front
+#photo1 {
+    z-index: 2; 
+}
+*/
+
+#photo3.animate {
+    transform: translate(-15em,0);
+    -moz-transform: translate(-15em,0);
+    -webkit-transform: translate(-15em,0);
 }
