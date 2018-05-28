@@ -38,20 +38,22 @@
                 <h3 class="animated slideInLeft slogan">Always learning. Always evolving</h3>
                 <hr class="intro-divider">
                 
-                <ul class="list-inline intro-social-buttons">
-                    <li>
+<!-------------------------social media buttons------------------->
+                
+                <ul class="socialBtnUl">
+                    <li class="socialBtnLi">
                         <a href="https://twitter.com/salman_IV?lang=en-gb" target="_blank" class=""><i class="fa fa-twitter fa-fw"></i></a>
                     </li>
                     
-                    <li>
+                    <li class="socialBtnLi">
                         <a href="https://github.com/siphera" target="_blank" class=""><i class="fa fa-github fa-fw"></i></a>
                     </li>
                     
-                    <li>
+                    <li class="socialBtnLi">
                         <a href="https://www.linkedin.com/in/siphenkosi-salman-18570715a/" target="_blank" class=""><i class="fa fa-linkedin fa-fw"></i></a>
                     </li>
                     
-                    <li>
+                    <li class="socialBtnLi">
                         <a href="https://drive.google.com/open?id=0B-3A6YZXKpTuR1B2WndiZXkwTzNNeE8xWW04LTdEXzFpdGI4" target="_blank" class=""><i class="fa fa-desktop"></i></a>
                     </li>
                 </ul>
@@ -62,8 +64,8 @@
 <!---------------------my skills-------------------------->
         
         <div class="row">
-            <div class="twelve columns">
-            <div class="three columns">
+            <div class="twelve columns skills-div   lang">
+            <div class="three columns ">
                 <h3 class="skill-heading"><i class="fa fa-html5" aria-hidden="true"></i> HTML5</h3>
                 <div class="w3-light-grey w3-round-xlarge">
                     <div class="w3-container w3-red w3-round-xlarge" style="width:85%">85%</div>
@@ -93,10 +95,70 @@
             </div>
         </div>
         
+        <div class="row">
+            <div class="twelve columns portf-intro">
+                
+                <h2 class="porth2" >My Portfolio</h2>
+                <h3 class="below-porth2">Below you'll find some of my recent work.</h3>
+                
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="twelve columns">
+                <div id="tabbed-content">
+                    <ul class="tabs">
+                        <li data-target="#about" class="active">Front End Projects</li>
+                        <li data-target="#contact">Back End Projects</li>
+                    </ul>
+                    <div class="panel active" id="about">
+                        <div class="four columns portfolio-item">
+                    <a href="https://siphera.github.io/basic-webpage/" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                
+                            </div>
+                        </div>
+                        <img src="https://www.studytonight.com/cascading-style-sheet/images/basic-web-layout.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Basic Webpage</h4>
+                        <p id="small-text" class="text-muted">created a basic web-page using only simple html & css</p>
+                    </div>
+                </div>
+                        
+                        <div class="four columns portfolio-item portfolio2">
+                    <a href="https://siphera.github.io/grid-basic-webpage/" class="portfolio-link" target="_blank" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                
+                            </div>
+                        </div>
+                        <img src="https://www.studytonight.com/cascading-style-sheet/images/basic-web-layout.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Basic webpage2</h4>
+                        <p id="small-text" class="text-muted">created a basic webpage using skeleton grid</p>
+                    </div>
+                </div>
+                    </div>
+                    
+                    <div class="panel" id="contact">
+                        <p>Content for contact tab...</p>
+                        <p>Content for contact tab...</p>
+                        <p>Content for contact tab...</p>
+                        <p>Content for contact tab...</p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
         <script src="js/jquery.js"></script>
         <script src="js/portfolio.js"></script>
         
-<!---------------------top nav-------------------------->
+<!---------------------top nav jquery-------------------------->
         <script>
             function myFunction() {
         var x = document.getElementById("myTopnav");
