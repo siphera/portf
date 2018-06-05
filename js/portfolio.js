@@ -30,11 +30,11 @@ $(document).ready(function(){
 });
 
   //Skills section reveal
-  sr.reveal('.lang', {
-    duration: 2000,
-    origin: 'left',
-    distance: '10%'
-  });
+  // sr.reveal('.lang', {
+  //   duration: 2000,
+  //   origin: 'left',
+  //   distance: '10%'
+  // });
 
 
 
